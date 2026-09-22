@@ -1,5 +1,9 @@
 # wasm-trim
 
+[![crates.io](https://img.shields.io/crates/v/wasm-trim.svg)](https://crates.io/crates/wasm-trim)
+[![docs.rs](https://img.shields.io/docsrs/wasm-trim.svg)](https://docs.rs/wasm-trim)
+[![license](https://img.shields.io/crates/l/wasm-trim.svg)](https://crates.io/crates/wasm-trim)
+
 Post-link WebAssembly size optimizer with runtime-specific profiles. It
 re-encodes an existing `.wasm` binary, applying a staged pipeline of
 behavior-preserving passes, and reports raw and gzip size deltas along with
