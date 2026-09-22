@@ -1,0 +1,17 @@
+[package]
+name = "wasm-trim"
+version = "0.1.0"
+edition = "2024"
+description = "Post-link WebAssembly size optimizer with runtime-specific profiles"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/stackmator/wasm-trim"
+rust-version = "1.87"
+exclude = ["testdata/**", "examples/probe.rs"]
+
+[dependencies]
+anyhow = "1.0.104"
+clap = { version = "4.6.7", features = ["derive"] }
+flate2 = "1.1.10"
+wasm-encoder = { version = "0.259.0", features = ["wasmparser"] }
+wasmparser = "0.259.0"

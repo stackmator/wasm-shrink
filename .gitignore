@@ -1,0 +1,10 @@
+/target
+
+# .NET fixture build artifacts (regenerate with testdata/build-fixtures.ps1)
+testdata/**/bin/
+testdata/**/obj/
+testdata/**/publish/
+testdata/fixtures/*.wasm
+
+# Vendored Blazor template assets
+testdata/**/wwwroot/lib/
